@@ -15,6 +15,10 @@ System.config({
   },
 
   map: {
+    "JamieMason/Jasmine-Matchers": "github:JamieMason/Jasmine-Matchers@1.22.3",
+    "angular": "github:angular/bower-angular@1.4.7",
+    "angular-mocks": "github:angular/bower-angular-mocks@1.4.7",
+    "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
     "babel": "npm:babel-core@5.8.33",
     "babel-runtime": "npm:babel-runtime@5.8.29",
     "core-js": "npm:core-js@1.2.3",
@@ -42,6 +46,12 @@ System.config({
       "angular-translate": "github:angular-translate/bower-angular-translate@2.8.1"
     },
     "github:angular-translate/bower-angular-translate@2.8.1": {
+      "angular": "github:angular/bower-angular@1.4.7"
+    },
+    "github:angular-ui/ui-router@0.2.15": {
+      "angular": "github:angular/bower-angular@1.4.7"
+    },
+    "github:angular/bower-angular-mocks@1.4.7": {
       "angular": "github:angular/bower-angular@1.4.7"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
