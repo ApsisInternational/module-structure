@@ -1,6 +1,6 @@
 function moduleDirective() {
     return {
-        templateUrl: 'lib/module/module.tpl.html',
+        templateUrl: 'src/module/module.tpl.html',
         controller() {
             console.log('module controller');
         },

@@ -1,6 +1,6 @@
 function secondDirective() {
     return {
-        templateUrl: 'lib/home/second/second.tpl.html',
+        templateUrl: 'src/home/second/second.tpl.html',
         controller() {
             console.log('home.second controller');
         },

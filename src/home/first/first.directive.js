@@ -1,6 +1,6 @@
 function firstDirective() {
     return {
-        templateUrl: 'lib/home/first/first.tpl.html',
+        templateUrl: 'src/home/first/first.tpl.html',
         controller() {
             console.log('home.first controller');
         },
