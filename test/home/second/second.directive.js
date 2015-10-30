@@ -1,4 +1,4 @@
-import { secondDirective } from 'lib/home/second/second.directive';
+import { secondDirective } from 'src/home/second/second.directive';
 
 describe('HOME.SECOND DIRECTIVE', () => {
     describe('when the directive is exported it', () => {

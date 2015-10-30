@@ -1,6 +1,6 @@
-import 'test/unit/helpers/libs';
+import 'test/_helpers/libs';
 
-import { secondComponent } from 'lib/prefs/second/second.component';
+import { secondComponent } from 'src/prefs/second/second.component';
 
 describe('PREFS.SECOND COMPONENT', () => {
     describe('when the module is exported it', () => {

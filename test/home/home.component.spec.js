@@ -1,6 +1,6 @@
-import 'test/unit/helpers/libs';
+import 'test/_helpers/libs';
 
-import { homeComponent } from 'lib/home/home.component';
+import { homeComponent } from 'src/home/home.component';
 
 describe('HOME COMPONENT', () => {
     describe('when the module is exported it', () => {

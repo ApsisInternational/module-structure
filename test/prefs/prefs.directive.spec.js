@@ -1,9 +1,9 @@
-import { firstDirective } from 'lib/prefs/first/first.directive';
+import { prefsDirective } from 'src/prefs/prefs.directive';
 
-describe('PREFS.FIRST DIRECTIVE', () => {
+describe('PREFS DIRECTIVE', () => {
     describe('when the directive is exported it', () => {
-        it('should export a function named firstDirective', () => {
-            expect(firstDirective).toBeFunction();
+        it('should export a function named prefsDirective', () => {
+            expect(prefsDirective).toBeFunction();
         });
     });
 
@@ -11,7 +11,7 @@ describe('PREFS.FIRST DIRECTIVE', () => {
         let ddo;
 
         beforeEach(() => {
-            ddo = firstDirective();
+            ddo = prefsDirective();
         });
 
         it('should return a ddo', () => {

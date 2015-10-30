@@ -1,9 +1,9 @@
-import { moduleDirective } from 'lib/module/module.directive';
+import { secondDirective } from 'src/prefs/second/second.directive';
 
-describe('MODULE DIRECTIVE', () => {
+describe('PREFS.SECOND DIRECTIVE', () => {
     describe('when the directive is exported it', () => {
-        it('should export a function named moduleDirective', () => {
-            expect(moduleDirective).toBeFunction();
+        it('should export a function named secondDirective', () => {
+            expect(secondDirective).toBeFunction();
         });
     });
 
@@ -11,7 +11,7 @@ describe('MODULE DIRECTIVE', () => {
         let ddo;
 
         beforeEach(() => {
-            ddo = moduleDirective();
+            ddo = secondDirective();
         });
 
         it('should return a ddo', () => {

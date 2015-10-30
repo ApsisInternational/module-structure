@@ -1,6 +1,6 @@
-import 'test/unit/helpers/libs';
+import 'test/_helpers/libs';
 
-import { structureModule } from 'lib/module/module.component';
+import { structureModule } from 'src/module/module.component';
 
 describe('MODULE COMPONENT', () => {
     describe('when the module is exported it', () => {

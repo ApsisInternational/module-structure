@@ -1,9 +1,9 @@
-import { firstDirective } from 'lib/home/first/first.directive';
+import { homeDirective } from 'src/home/home.directive';
 
-describe('HOME.FIRST DIRECTIVE', () => {
+describe('HOME DIRECTIVE', () => {
     describe('when the directive is exported it', () => {
-        it('should export a function named firstDirective', () => {
-            expect(firstDirective).toBeFunction();
+        it('should export a function named homeDirective', () => {
+            expect(homeDirective).toBeFunction();
         });
     });
 
@@ -11,7 +11,7 @@ describe('HOME.FIRST DIRECTIVE', () => {
         let ddo;
 
         beforeEach(() => {
-            ddo = firstDirective();
+            ddo = homeDirective();
         });
 
         it('should return a ddo', () => {

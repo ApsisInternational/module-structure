@@ -4,23 +4,23 @@ module.exports = function karmaConfig(config) {
         // The base path is one level up since this file is in ./test/
         // If your karma.conf.js is in your project root, your basePath should
         // be './'
-        basePath: '../',
+        basePath: './',
 
         frameworks: ['jspm', 'jasmine'],
 
         jspm: {
             loadFiles: [
-                'test/unit/**/*.js',
+                'test/**/*.js',
             ],
             serveFiles: [
-                'lib/**/*.js',
-                'lib/**/*.html',
+                'src/**/*.js',
+                'src/**/*.html',
             ],
         },
 
         preprocessors: {
-            'lib/**/*.js': ['babel'],
-            'test/unit/**/*.js': ['babel'],
+            'src/**/*.js': ['babel'],
+            'test/**/*.js': ['babel'],
             'jspm_packages/apsis/**/*.js': ['babel'],
         },
 
@@ -32,7 +32,7 @@ module.exports = function karmaConfig(config) {
 
         proxies: {
             '/test/': '/base/test/',
-            '/lib/': '/base/lib/',
+            '/src/': '/base/src/',
             '/jspm_packages/': '/base/jspm_packages/',
         },
 

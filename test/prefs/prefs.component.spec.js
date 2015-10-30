@@ -1,6 +1,6 @@
-import 'test/unit/helpers/libs';
+import 'test/_helpers/libs';
 
-import { prefsComponent } from 'lib/prefs/prefs.component';
+import { prefsComponent } from 'src/prefs/prefs.component';
 
 describe('PREFS COMPONENT', () => {
     describe('when the module is exported it', () => {
