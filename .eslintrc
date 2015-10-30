@@ -1,0 +1,6 @@
+{
+    "extends": "apsis",
+    "globals": {
+        "angular": true
+    }
+}
