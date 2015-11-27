@@ -1,9 +1,6 @@
 module.exports = function karmaConfig(config) {
     config.set({
 
-        // The base path is one level up since this file is in ./test/
-        // If your karma.conf.js is in your project root, your basePath should
-        // be './'
         basePath: './',
 
         frameworks: ['jspm', 'jasmine'],
